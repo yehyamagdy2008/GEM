@@ -687,7 +687,7 @@ ul {
 .footer span {
   color: #3a6cf4;
 }
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .home img {
     width: 90%;
     max-width: 500px;
@@ -707,6 +707,9 @@ ul {
   .p {
     width: 350px;
     margin: 0 auto;
+  }
+  .content-2 {
+    text-align: center;
   }
   .content-2 img {
     width: 90%;
@@ -763,6 +766,12 @@ ul {
   .content-4 img {
     width: 90%;
     height: 230px;
+    max-width: 400px;
+  }
+  #header img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
   }
   .coaches .container {
     display: flex;
