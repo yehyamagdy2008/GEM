@@ -863,6 +863,7 @@ ul {
   .advise-2 {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
   }
   .advise-2 span:nth-child(2) {
     text-align: center;
