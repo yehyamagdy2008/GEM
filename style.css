@@ -180,7 +180,6 @@ a {
     display: flex;
     flex-direction: row-reverse;
     gap: 10px;
-    padding-right: 50px;
   }
 }
 .home {
