@@ -534,7 +534,8 @@ footer {
 }
 .advise-2 {
   width: 900px;
-  height: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #89ff00;
   margin: 0 auto;
   opacity: 0.9;
@@ -854,5 +855,19 @@ ul {
   }
   .footer a img {
     margin: 0;
+  }
+  .advise p {
+    text-align: center;
+    font-size: 35px;
+  }
+  .advise-2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .advise-2 span:nth-child(2) {
+    text-align: center;
+    margin-inline: auto;
+    margin-left: 0;
+    width: 300px;
   }
 }
