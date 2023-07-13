@@ -20,7 +20,7 @@ a {
   z-index: 1000;
   left: 0;
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: auto;
 }
 #header .header {
@@ -31,11 +31,9 @@ a {
 #header .nav-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: center;
+  width: 100vw;
   height: 100%;
-  max-width: 1300px;
-  padding-bottom: 20px;
 }
 #header .nav-list ul {
   list-style: none;
@@ -173,8 +171,9 @@ a {
     color: rgb(0, 124, 0);
   }
   #header .nav-list ul {
+    width: 100%;
     position: initial;
-    background-color: #29323c;
+    background-color: transparent;
   }
   #header .nav-list ul {
     display: flex;
@@ -572,15 +571,33 @@ ul {
 }
 .li-1 {
   background-color: #313131;
-  padding: 10px 0px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+  border-radius: 3px;
 }
 .li-2 {
   background-color: #313131;
-  padding: 10px 0px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+  border-radius: 3px;
 }
 .li-3 {
   background-color: #313131;
-  padding: 10px 7px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+  border-radius: 3px;
 }
 .li-1:hover {
   background-color: #ff0000;
@@ -856,6 +873,9 @@ ul {
   .advise p {
     text-align: center;
     font-size: 40px;
+  }
+  #header .nav-bar {
+    justify-content: space-between;
   }
 }
 @keyframes hamburger_puls {
